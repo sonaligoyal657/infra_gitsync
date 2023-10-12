@@ -4,9 +4,3 @@ environment:
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: InfraGitxTesting
-  variables:
-    - name: var11
-      type: String
-      value: "1"
-      description: ""
-      required: false
