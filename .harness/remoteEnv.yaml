@@ -1,7 +1,12 @@
 environment:
   name: remoteEnv
   identifier: remoteEnv
-  accountId: GiupuyeoSa6dNUgyrx0k3g
+  type: PreProduction
   orgIdentifier: default
   projectIdentifier: InfraGitxTesting
-  type: PreProduction
+  variables:
+    - name: var11
+      type: String
+      value: "1"
+      description: ""
+      required: false
