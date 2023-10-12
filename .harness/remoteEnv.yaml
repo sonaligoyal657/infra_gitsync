@@ -4,3 +4,14 @@ environment:
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: InfraGitxTesting
+  overrides:
+    connectionStrings:
+      store:
+        type: Git
+        spec:
+          connectorRef: <+input>
+          gitFetchType: Branch
+          paths:
+            - /
+          repoName: test
+          branch: branch
