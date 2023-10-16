@@ -1,5 +1,5 @@
 infrastructureDefinition:
-  name: infra_remote
+  name: infra_remote_89
   identifier: infra_remote
   orgIdentifier: default
   projectIdentifier: InfraGitxTesting
